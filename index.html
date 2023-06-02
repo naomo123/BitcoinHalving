@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Bitcoin-halving</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Bitcoin Block Reward Halving Countdown</h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    
+    <div class="wrapper">
+      <div class="counter col_fourth">
+        <i class="fa fa-code fa-2x"></i>
+        <h2 class="timer count-title count-number" id="blockCount" data-to="300" data-speed="1500">Cargando..</h2>
+        <p class="count-text" id="headline">Total Block</p>
+      </div>
+  
+      <div class="counter col_fourth">
+        <i class="fa fa-coffee fa-2x"></i>
+        <h2 class="timer count-title count-number" data-to="1700" data-speed="1500">840000</h2>
+        <p class="count-text">Next Halving</p>
+      </div>
+  
+      <div class="counter col_fourth">
+        <i class="fa fa-lightbulb-o fa-2x"></i>
+        <h2 class="timer count-title count-number" id="difficulty" data-to="11900" data-speed="1500">-</h2>
+        <p class="count-text">Current Difficulty Target</p>
+      </div>
+  
+      <div class="counter col_fourth end">
+        <i class="fa fa-bug fa-2x"></i>
+        <h2 class="timer count-title count-number" id="average" data-to="157" data-speed="1500">-</h2>
+        <p class="count-text">Average of transactions per block</p>
+      </div>
+  </div>
+
+  
+  
+</body>
+  <script src="/js/script.js"></script>
+</html> 
